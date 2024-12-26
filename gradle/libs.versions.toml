@@ -10,6 +10,7 @@ kover = "0.8.3"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+kotlinTest = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit4", version.ref = "kotlin" }
 
 [plugins]
 changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
